@@ -25,7 +25,7 @@ const Cart = ({ cart, handleUpdateCartQuantity, handleRemoveFromCart, handleEmpt
                 </Typography>
                 <div>
                     <Button className={classes.emptyButton} size="large" type="button" variant="contained" color="secondary" onClick={ handleEmptyCart }>Vaciar carrito</Button>
-                    <Button component={Link} to="/checkout" className={classes.checkoutButton} size="large" type="button" variant="contained" color="primary">Proceder</Button>
+                    <Button component={Link} to="/checkout" className={classes.checkoutButton} size="large" type="button" variant="contained" color="primary">REALIZAR COMPRA</Button>
                 </div>
             </div>
         </>
